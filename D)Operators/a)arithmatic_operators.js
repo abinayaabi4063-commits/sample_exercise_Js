@@ -1,9 +1,9 @@
-const a = 10;
-const b = 2;
-
-console.log("add ====>", a + b )
-console.log("sub ====>", a - b )
-console.log("mul ====>", a * b )
-console.log("sub ====>", a / b )
-console.log("mod ====>", a % b )
-console.log("power ====>", a ** b )
+let a = 10;
+let b = 5;
+console.log(a + b); 
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+a++;
+console.log(a);
