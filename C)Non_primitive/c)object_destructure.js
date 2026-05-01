@@ -1,15 +1,10 @@
-/* Example 1 - Before object destrcture */
-
-  let student = {
-        "student_name" : "saravanan",
-        "student_age"  : 5,
-        "student_school":"dav matriculation",
-        "student_location":"chennai"
-  }
-
-  const {student_name,student_age,student_school} = student
-
-   console.log("student Name===>",student_name)
-   console.log("student age===>",student_age)
-   console.log("student school===>",student_school)
-
+let student = {
+  name: "Arun",
+  age: 22,
+  ooru: "Madurai"
+};
+let name = student.name;
+let age = student.age;
+let ooru = student.ooru;
+console.log(name);
+console.log(age);
