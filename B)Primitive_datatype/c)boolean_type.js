@@ -1,6 +1,4 @@
-let produtAvailabe = true;
-let personliveStatus = false;
-
-let kollamTrainStatus = false;
-
-console.log("product Available ===>",typeof produtAvailabe)
+let dance = true;
+let sduty = false;
+console.log(dance);
+console.log(typeof sduty);
