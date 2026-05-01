@@ -1,29 +1,12 @@
-const employees = [
-    {
-        name : "saravanan",
-        age : "28",
-        location : "chennai",
-        isWorking : true,
-        salary : 52454.25,
-        skillset : ["Java","python","react","angular"]
-    },
-
-    {
-        name : "Nisha",
-        age : "25",
-        location : "chennai",
-        isWorking : true,
-        salary : 30002.25,
-        skillset : ["html","css","bs"]
-    },
-    {
-        name : "sivakumar",
-        age : "35",
-        location : "chennai",
-        isWorking : true,
-        salary : 30002.25,
-        skillset : ["html","css","bs",".net","devops"]
-    }
-]
-
-console.log("employees------>",employees[0].name)
+let student = {
+  name: "varun",
+  age: 22
+};
+let bike = {
+  brand: "pulsar",
+  color: "black"
+};
+let { name, age } = student;
+let { brand, color } = bike;
+console.log(name);
+console.log(brand); 
