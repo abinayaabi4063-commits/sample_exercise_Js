@@ -1,8 +1,3 @@
-var candidateName = "vijay joseph"; // defined
-
-var cmStatus; //undefiend
-var standingArea = null; //null
-
-
-
-console.log("standingArea =====>", standingArea)
+let name;
+console.log(name); 
+console.log(typeof name); 
