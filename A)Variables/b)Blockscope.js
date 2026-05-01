@@ -1,13 +1,6 @@
-/**
- *  let - block scope
- *      - cannot re-declare
- *      - but allow re-assign
- */
 
+let age = 25;
+console.log(age); 
+age = 26; 
+console.log(age); 
 
-let bottle = "water"
-
-bottle = "oil" 
-
-
-console.log("bottle===>",bottle)
