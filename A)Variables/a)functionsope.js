@@ -1,7 +1,5 @@
-var bottle = "oil"                         
-var bottle = "water"                        
-var bottle = "juice"
-var bottle = "curd"
-  bottle = "chilli powder"              
-  bottle = "mouth-wash"
-console.log("bottle====>",bottle)
+if (true) {
+  var name = "abi";
+  console.log("in:"+name);
+}
+console.log("out: " +name);
