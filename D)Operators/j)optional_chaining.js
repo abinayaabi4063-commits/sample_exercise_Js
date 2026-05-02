@@ -1,5 +1,3 @@
-let user = {
-   
-};
-
-console.log("user city====>",user?.address?.city);
+let user = {};
+console.log(user.name);
+console.log(user.address.city); 
