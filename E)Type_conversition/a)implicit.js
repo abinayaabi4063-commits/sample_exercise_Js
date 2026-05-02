@@ -1,9 +1,4 @@
-/* Example 1 : String to Number */
-
-
-var firstNumber = "100"
-var secondNumber = 50
-
-var result  = firstNumber - secondNumber;    // 100500
-
-console.log(result)
+let ageText = "25";
+let age = Number(ageText);
+console.log(age); 
+console.log(typeof age); 
