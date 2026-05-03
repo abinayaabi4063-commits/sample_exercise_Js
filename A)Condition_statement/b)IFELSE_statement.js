@@ -1,13 +1,8 @@
-console.log("Program start")
-
-let age = 1;
-
-if (age >= 18) {
-    console.log("Adult");
-} 
-else{
-    console.log("Minor")
+console.log("start")
+let age = 25;
+if(age > 30) {
+  console.log("get married");
+} else {
+  console.log("bachlor");
 }
-
-
-console.log("Program End")
+console.log("end")
