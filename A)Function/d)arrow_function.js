@@ -1,16 +1,4 @@
-/* Normal function  */
-
-
-function welcomeMessage(){
-    console.log("welcome to Javascript world")
-}
-
-welcomeMessage()
-
-const expression = function (){
-    console.log("welcome to Javascript world")
-}
-expression()
-
-
-
+const greet = () => {  // () => {} = arrow function
+  console.log("Hello from abinaya");
+};
+greet(); // Hello from AG Company
