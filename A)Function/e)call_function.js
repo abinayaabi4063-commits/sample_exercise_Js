@@ -1,17 +1,4 @@
-function processUser(name,callback) {
-
-
-    setTimeout(()=>{
-        console.log("Processing user:", name);
-        callback()
-       
-    },1000)
-    
-   
+function sayHello() {
+  console.log("Hello from abinaya");
 }
-
-function done() {
-    console.log("Done!");
-}
-
-processUser("saravanan",done)
+sayHello(); // call pannu
