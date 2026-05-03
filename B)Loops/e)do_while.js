@@ -1,7 +1,6 @@
-let i = 1;
 
-do{
-    console.log(i)
-    i++
-} 
-while(i<=6);
+let i = 1;
+do {
+  console.log("Number: " + i);
+  i++;
+} while(i <= 5);
