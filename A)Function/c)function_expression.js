@@ -1,16 +1,7 @@
-/* Normal function  */
-
-
-function welcomeMessage(){
-    console.log("welcome to Javascript world")
-}
-
-welcomeMessage()
-
-const expression = function (){
-    console.log("welcome to Javascript world")
-}
-expression()
+const greet = function() {  // function ah variable la vachu
+  console.log("Hello from Abi");
+};
+greet();
 
 
 
