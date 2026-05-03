@@ -1,10 +1,6 @@
-console.log("Program start")
-
+console.log("start")
 let age = 21;
-
 if (age >= 18) {
     console.log("Adult");
 } 
-
-
-console.log("Program End")
+console.log("End")
