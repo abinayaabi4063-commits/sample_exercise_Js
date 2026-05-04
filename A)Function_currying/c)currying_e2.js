@@ -1,25 +1,8 @@
-function employee(basicSalary) {
-    
-    return function(){
-        let hra = 2500
-        let da  = 1000
-        let bonus = 6000
-        let gross = basicSalary +  hra + da + bonus
-
-        return function(){
-            let pf = 3600
-            let pt  = 1200
-
-            let netSal = basicSalary - (pf + pt)
-
-            return netSal
-        }
-
-    }
-
-    
+function add(a) {           // muthalla a ah vaangu
+  return function(b) {      // apram b ah vaangu
+    return a + b;           // rendayum add pannu
+  }
 }
-
-let salary = employee(50000)()()
-
-console.log("salary=====>",salary)
+let add5 = add(5);          // a = 5 nu fix pannitu
+console.log(add5(10));      // b = 10 kuduthu call pannu -> 15
+console.log(add(5)(10));    // direct ah kooda call pannalam -> 15
