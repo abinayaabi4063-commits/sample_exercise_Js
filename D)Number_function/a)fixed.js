@@ -1,4 +1,4 @@
-let number = 500.2438895252255
-let fixed  = number.toFixed(2);
-
-console.log(fixed) //500.26
+let price = 99.4567;
+console.log(price.toFixed(2)); // "99.46" - 2 decimal varai
+console.log(price.toFixed(0)); // "99" - decimal illama round
+console.log(price.toFixed(4)); // "99.4567" - 4 decimal varai
