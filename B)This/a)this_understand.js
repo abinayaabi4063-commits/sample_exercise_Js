@@ -1,14 +1,4 @@
-const employee = {
-    empid : 121,
-    employee_firstName : "saravanan",
-    employee_lastName : "Durai",
-
-    employee_fullname : function(){
-        return this.employee_firstName + " " + this.employee_lastName
-    }
-}
-
-
-console.log("emp ID ===>",employee.empid)
-console.log("emp name ===>",employee.employee_firstName)
-console.log("employee Full Name===>",employee.employee_fullname())
+const checkResult = state => party => `${party} wins in ${state}`;      //    state fix    party pass
+let tnResult = checkResult("Tamil Nadu");  // state = Tamil Nadu nu fix pannitu
+console.log(tnResult("TVK"));   // DMK wins in Tamil Nadu
+console.log(tnResult("DMK"));  // ADMK wins in Tamil Nadu
