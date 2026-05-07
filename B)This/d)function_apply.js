@@ -1,22 +1,6 @@
-let user = {
-    name : "saravanan",
-    age : 32,
-    work : "Software Engineer"
+function introduce(city, age) {
+  console.log(this.name + " from " + city + ", age " + age);
 }
-
-let userInfo = {
-    location:"velachery",
-    city:"chennai"
-}
-
-let x = 100
-let y = 200
-
-function clickMe(info,x,y){
-    console.log("user clicked===>",this.name,"age===>",this.age,"location====>",info.location)
-
-    console.log("x====>",x)
-    console.log("y====>",y)
-}
-
-clickMe.apply(user,[userInfo,x,y])
+const user = { name: "Abinaya" };
+introduce.apply(user, ["Chennai", 21]); 
+// this = user, arguments = ["Chennai", 25] array ah anuppuvom
