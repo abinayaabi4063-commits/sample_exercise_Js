@@ -1,16 +1,4 @@
-let user = {
-    name : "saravanan",
-    age : 32,
-    work : "Software Engineer"
+function greet() {
+  console.log("Hello!");
 }
-
-let userInfo = {
-    location:"velachery",
-    city:"chennai"
-}
-
-function clickMe(info){
-    console.log("user clicked===>",this.name,"age===>",this.age,"location====>",info.location)
-}
-
-clickMe.call(user,userInfo)
+greet(); // function ah call pannom
