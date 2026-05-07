@@ -1,7 +1,5 @@
-let str = "Hello welcome to Javascript"
-let findText = "welcome"
-
-let isAvailablestatus = str.includes(findText)             // true or false
-let index = str.indexOf(findText)                          // 6 or -1
-
-console.log("index====>",index)
+let text = "Welcome to AG Company";
+let pos = text.search("AG"); 
+console.log(pos); // 11 - AG varum position
+let pos2 = text.search("Z"); 
+console.log(pos2); // -1 - illa na -1 varum
