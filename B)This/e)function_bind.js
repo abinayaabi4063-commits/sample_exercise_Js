@@ -1,24 +1,8 @@
-let user = {
-    name : "saravanan",
-    age : 32,
-    work : "Software Engineer"
+const user = {
+  name: "Abinaya"
+};
+function greet() {
+  console.log("Hello " + this.name);
 }
-
-let userInfo = {
-    location:"velachery",
-    city:"chennai"
-}
-
-let x = 100
-let y = 200
-
-function clickMe(info,x,y){
-    console.log("user clicked===>",this.name,"age===>",this.age,"location====>",info.location)
-
-    console.log("x====>",x)
-    console.log("y====>",y)
-}
-
-let newFunction = clickMe.bind(user,userInfo,x,y)
-
-newFunction()
+let greetUser = greet.bind(user); // this = user nu fix pannitu new function
+greetUser(); // Hello Abinaya
