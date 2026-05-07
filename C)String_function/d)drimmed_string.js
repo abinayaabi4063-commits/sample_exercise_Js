@@ -1,5 +1,5 @@
-let str = "   hi Saravanan     ";
-let trimmedStr = str.trim();  
-
-console.log(str.length)          // 14
-console.log(trimmedStr.length)   // 12  
+let name = "   Abinaya varun   ";
+console.log(name);           // "   Abinaya Ravi   " - space oda
+console.log(name.trim());    // "Abinaya Ravi" - space remove aachu
+console.log(name.length);        // 18
+console.log(name.trim().length); // 13
