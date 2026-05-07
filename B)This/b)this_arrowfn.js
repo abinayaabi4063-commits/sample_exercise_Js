@@ -1,15 +1,11 @@
-this.employee_firstName = "Rajesh"
-this.employee_lastName = "Kumar";
-
-const employee = {
-    empid : 121,
-    employee_firstName : "saravanan",
-    employee_lastName : "Durai",
-    employee_fullname : () => {
-        return this.employee_firstName + " " + this.employee_lastName
-       
-    }
+const user = {
+  name: "Abinaya",
+  sayNameNormal: function() {
+    console.log("Normal: " + this.name); // this = user object
+  },
+  sayNameArrow: () => {
+    console.log("Arrow: " + this.name); // this = window, not user
+  }
 }
-
-let result =  employee.employee_fullname(employee)
-console.log(result)
+user.sayNameNormal(); // Normal: Abinaya
+user.sayNameArrow();  // Arrow: undefined
