@@ -1,3 +1,4 @@
-let cricketTeam = ["tedulkar","dhoni","shewak","jedeja","virat"]
-let newTeam = cricketTeam.slice(2,5)            
-console.log("new Team====>",newTeam)
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+let part = fruits.slice(1, 4); 
+console.log(part);   
+console.log(fruits); 
