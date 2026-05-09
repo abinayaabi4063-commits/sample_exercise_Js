@@ -1,0 +1,6 @@
+function wait(ms) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve("Time up"), ms); // ms apram resolve pannu
+  });
+}
+wait(2000).then(msg => console.log(msg)); // 2 sec apram: Time up
