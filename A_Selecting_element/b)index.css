@@ -1,0 +1,27 @@
+/* Ellathukum apply aagum */
+body {
+  background-color: lightblue; 
+  font-family: Arial;
+  text-align: center;
+}
+
+/* h1 tag ku mattum */
+h1 {
+  color: darkblue;
+  font-size: 40px;
+}
+
+/* class="intro" ku mattum */
+.intro {
+  color: green;
+  font-size: 20px;
+}
+
+/* button ku style */
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
